@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(0);
+
 // include required class files.
 require_once 'classes/limonade.php';
 require_once 'classes/tropo.class.php';
