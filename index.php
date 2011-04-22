@@ -15,7 +15,7 @@ function tropoStart() {
 	
 	// Welcome message, and get caller input.
 	$tropo->say("Welcome to the tropo orchestra example.", array("barge" => false));
-	$tropo->ask("What is your favoirte programming language? You can say PHP, Ruby, Javascript or Python.", 
+	$tropo->ask("What is your favoirte programming language dude? You can say PHP, Ruby, Javascript or Python.", 
 				array("attempts" => 3,
 					  "choices" => "PHP, Ruby, JavaScript, Python", 
 					  "name" => "language", 
